@@ -1,13 +1,13 @@
-// components/Hero.js
 export default function Hero() {
-    return (
-      <section className="bg-gradient-to-r from-blue-500 to-green-500 text-white p-10 text-center">
-        <h2 className="text-4xl font-bold mb-4">Welcome to Our Site</h2>
-        <p className="text-lg">Discover our services and latest updates.</p>
-        <button className="mt-4 px-6 py-2 bg-white text-blue-500 rounded-md hover:bg-gray-200">
-          Get Started
-        </button>
-      </section>
-    );
-  }
-  
+  return (
+    <section className="bg-gradient-to-br from-purple-500 to-indigo-600 text-white text-center py-20">
+      <h1 className="text-5xl font-extrabold mb-4">Welcome to Burair's Practice Site</h1>
+      <p className="text-lg font-light mb-8 max-w-2xl mx-auto">
+        Discover our range of services and learn more about what we can do for you.
+      </p>
+      <button className="bg-yellow-400 text-gray-800 font-semibold px-8 py-3 rounded-lg shadow-lg transform hover:scale-105 transition duration-300">
+        Get Started
+      </button>
+    </section>
+  );
+}

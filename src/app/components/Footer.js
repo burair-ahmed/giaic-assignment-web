@@ -1,14 +1,9 @@
-// components/Footer.js
 export default function Footer() {
-    return (
-      <footer className="p-5 bg-gray-800 text-white text-center space-y-3">
-        <p>&copy; 2024 My Next.js App</p>
-        <div className="flex justify-center space-x-4">
-          <a href="#" target="_blank">Facebook</a>
-          <a href="#" target="_blank">Twitter</a>
-          <a href="#" target="_blank">LinkedIn</a>
-        </div>
-      </footer>
-    );
-  }
-  
+  return (
+    <footer className="bg-gradient-to-r from-gray-900 to-gray-700 text-white p-6 mt-auto">
+      <div className="container mx-auto text-center">
+        <p className="text-lg font-light">&copy; {new Date().getFullYear()} Burair Ahmed. All rights reserved.</p>
+      </div>
+    </footer>
+  );
+}

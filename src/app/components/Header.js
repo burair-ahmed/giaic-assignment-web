@@ -8,7 +8,7 @@ export default function Header() {
 
   return (
     <header className="p-5 bg-blue-600 text-white flex items-center justify-between">
-      <h1 className="text-xl font-bold">My Next.js Site</h1>
+      <h1 className="text-xl font-bold">Burair Ahmed</h1>
       <nav className={`space-x-4 ${menuOpen ? "block" : "hidden"} md:flex`}>
         <Link href="/">Home</Link>
         <Link href="/about">About</Link>
