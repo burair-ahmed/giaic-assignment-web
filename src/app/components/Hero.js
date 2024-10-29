@@ -1,4 +1,3 @@
-// components/Hero.js
 export default function Hero() {
   return (
     <section className="bg-gradient-to-br from-purple-600 to-indigo-700 text-white text-center py-24 md:py-32">
