@@ -1,9 +1,13 @@
 // components/ContactForm.js
 "use client";
-import { useState } from 'react';
+import { useState } from "react";
 
 export default function ContactForm() {
-  const [formData, setFormData] = useState({ name: '', email: '', message: '' });
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -11,7 +15,10 @@ export default function ContactForm() {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="space-y-4 max-w-md mx-auto p-5 border rounded shadow-lg">
+    <form
+      onSubmit={handleSubmit}
+      className="space-y-4 max-w-md mx-auto p-5 border rounded shadow-lg"
+    >
       <input
         type="text"
         placeholder="Name"
@@ -35,7 +42,12 @@ export default function ContactForm() {
         onChange={(e) => setFormData({ ...formData, message: e.target.value })}
         required
       ></textarea>
-      <button type="submit" className="w-full p-3 bg-blue-600 text-white rounded">Send Message</button>
+      <button
+        type="submit"
+        className="w-full p-3 bg-blue-600 text-white rounded"
+      >
+        Send Message
+      </button>
     </form>
   );
 }

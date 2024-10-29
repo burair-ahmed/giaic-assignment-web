@@ -1,23 +1,23 @@
 // components/Header.js
 "use client";
-import Link from 'next/link';
-import { useState } from 'react';
+import Link from "next/link";
+import { useState } from "react";
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="p-5 bg-blue-600 text-white flex items-center justify-between">
-      <h1 className="text-xl font-bold">Burair Ahmed</h1>
+    <header className="p-5 bg-blue-800 text-white flex items-center justify-between shadow-lg">
+      <h1 className="text-2xl font-bold">Burair Ahmed</h1>
       <nav className={`space-x-4 ${menuOpen ? "block" : "hidden"} md:flex`}>
-        <Link href="/">Home</Link>
-        <Link href="/about">About</Link>
-        <Link href="/services">Services</Link>
-        <Link href="/blog">Blog</Link>
-        <Link href="/contact">Contact</Link>
+        <Link href="/" className="hover:text-blue-300 transition duration-300">Home</Link>
+        <Link href="/about" className="hover:text-blue-300 transition duration-300">About</Link>
+        <Link href="/services" className="hover:text-blue-300 transition duration-300">Services</Link>
+        <Link href="/blog" className="hover:text-blue-300 transition duration-300">Blog</Link>
+        <Link href="/contact" className="hover:text-blue-300 transition duration-300">Contact</Link>
       </nav>
       <button
-        className="md:hidden text-white"
+        className="md:hidden text-white focus:outline-none"
         onClick={() => setMenuOpen(!menuOpen)}
       >
         ☰

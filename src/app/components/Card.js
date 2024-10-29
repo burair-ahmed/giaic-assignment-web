@@ -1,10 +1,9 @@
 // components/Card.js
 export default function Card({ title, content }) {
-    return (
-      <div className="p-4 border rounded shadow-lg hover:shadow-xl transition-shadow">
-        <h3 className="text-lg font-semibold">{title}</h3>
-        <p className="text-gray-600">{content}</p>
-      </div>
-    );
-  }
-  
+  return (
+    <div className="p-4 bg-white border border-gray-200 rounded-lg shadow-lg hover:shadow-xl transition-shadow transform hover:scale-105">
+      <h3 className="text-lg font-semibold text-gray-800 mb-2">{title}</h3>
+      <p className="text-gray-600">{content}</p>
+    </div>
+  );
+}
