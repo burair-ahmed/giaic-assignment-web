@@ -32,8 +32,8 @@ export default function Services() {
             What Our Clients Say
           </h3>
           <p className="text-lg text-gray-600 text-center max-w-2xl mx-auto italic">
-            "The team exceeded our expectations! They delivered exceptional
-            results and provided excellent support throughout the project."
+          &quot;The team exceeded our expectations! They delivered exceptional
+            results and provided excellent support throughout the project.&quot;
           </p>
         </section>
         <CTASection
