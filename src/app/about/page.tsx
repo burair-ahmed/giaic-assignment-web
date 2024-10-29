@@ -11,9 +11,9 @@ export default function About() {
         />
       </div>
       <main className="flex-grow bg-gray-50 p-10">
-        <h2 className="text-4xl font-bold text-center mb-10 text-gray-800">
+        {/* <h2 className="text-4xl font-bold text-center mb-10 text-gray-800">
           About Us
-        </h2>
+        </h2> */}
 
         <section className="mb-16">
           <h3 className="text-3xl font-semibold text-gray-800 text-center mb-6">
