@@ -1,9 +1,14 @@
 import ServiceCard from "../components/ServiceCard";
 import CTASection from "../components/CTA";
-
+import HeroPages from "../components/HeroPages"
 export default function Services() {
   return (
     <div className="flex flex-col min-h-screen">
+      <div>
+        <HeroPages
+        title="Services"
+        />
+      </div>
       <main className="flex-grow p-10 bg-gray-100">
         <h2 className="text-4xl font-bold text-center mb-10 text-gray-800">
           Our Services

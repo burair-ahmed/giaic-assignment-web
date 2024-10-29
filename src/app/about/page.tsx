@@ -1,9 +1,15 @@
 import TeamMember from "../components/TeamMember";
 import CTASection from "../components/CTA";
+import HeroPages from "../components/HeroPages";
 
 export default function About() {
   return (
     <div className="flex flex-col min-h-screen">
+          <div>
+        <HeroPages
+        title="About"
+        />
+      </div>
       <main className="flex-grow bg-gray-50 p-10">
         <h2 className="text-4xl font-bold text-center mb-10 text-gray-800">
           About Us
