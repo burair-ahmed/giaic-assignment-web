@@ -9,7 +9,7 @@ export default function Hero() {
         Discover our range of services and learn more about what we can do for you.
       </p>
       <button className="bg-yellow-500 text-gray-800 font-semibold px-8 py-4 rounded-lg shadow-lg transform hover:scale-105 hover:shadow-xl transition duration-300">
-        Get Started
+       <a href="/contact"> Get Started</a>
       </button>
     </section>
   );

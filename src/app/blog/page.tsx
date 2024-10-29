@@ -11,7 +11,7 @@ export default function Blog() {
         />
       </div>
       <main className="flex-grow p-10">
-        <h2 className="text-3xl font-bold mb-6">Blog</h2>
+        {/* <h2 className="text-3xl font-bold mb-6">Blog</h2> */}
         <div className="grid sm:grid-cols-12 md:grid-cols-6 lg:grid-cols-12 gap-4">
           <div className="col-span-6">
             <BlogCard

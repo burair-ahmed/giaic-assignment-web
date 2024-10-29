@@ -8,7 +8,9 @@ export default function Header() {
 
   return (
     <header className="p-5 bg-blue-800 text-white flex items-center justify-between shadow-lg">
+      <a href="/">
       <h1 className="text-2xl font-bold">Burair Ahmed</h1>
+      </a>
       <nav className={`space-x-4 ${menuOpen ? "block" : "hidden"} md:flex`}>
         <Link href="/" className="hover:text-blue-300 transition duration-300">Home</Link>
         <Link href="/about" className="hover:text-blue-300 transition duration-300">About</Link>
