@@ -1,4 +1,11 @@
-export default function BlogCard({ title, summary, imageUrl }) {
+interface BlogCardProps {
+  title: string
+  summary: string
+  imageUrl: string  
+}
+
+
+export default function BlogCard({ title, summary, imageUrl } : BlogCardProps) {
   return (
     <div className="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
       <img src={imageUrl} alt={title} className="w-full h-72 object-cover" />

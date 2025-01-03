@@ -1,7 +1,11 @@
-// components/TeamMember.js
 import { FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa";
 
-export default function TeamMember({ name, position, image }) {
+interface TeamMemberProps {
+  name: string;
+  position: string;
+  image: string;
+}
+export default function TeamMember({ name, position, image } : TeamMemberProps) {
   return (
     <div className="bg-white p-8 rounded-lg shadow-lg transform hover:scale-105 transition duration-300 text-center">
       <img
