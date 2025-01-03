@@ -1,5 +1,11 @@
-// components/CTASection.js
-export default function CTASection({ title, description, buttonText, buttonLink }) {
+interface CTAProps {
+  title: string;
+  description: string;
+  buttonText: string;
+  buttonLink: string;
+}
+
+export default function CTASection({ title, description, buttonText, buttonLink } : CTAProps) {
   return (
     <section className="bg-gradient-to-r from-blue-500 to-indigo-600 text-white text-center py-10 mt-10 rounded-lg shadow-lg transform transition-all duration-300 hover:scale-105">
       <h3 className="text-4xl font-semibold mb-4">{title}</h3>
