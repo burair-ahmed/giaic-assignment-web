@@ -16,6 +16,8 @@ export default function Header() {
         <Link href="/services" className="hover:text-blue-300 transition duration-300">Services</Link>
         <Link href="/blog" className="hover:text-blue-300 transition duration-300">Blog</Link>
         <Link href="/contact" className="hover:text-blue-300 transition duration-300">Contact</Link>
+        <Link href="/faq" className="hover:text-blue-300 transition duration-300">FAQ</Link>
+        <Link href="/error" className="hover:text-blue-300 transition duration-300">Error</Link>
       </nav>
       <button
         className="md:hidden text-white focus:outline-none"
