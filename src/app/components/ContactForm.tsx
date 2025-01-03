@@ -1,4 +1,3 @@
-// components/ContactForm.js
 "use client";
 import { useState } from "react";
 
@@ -9,7 +8,7 @@ export default function ContactForm() {
     message: "",
   });
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     alert("Thank you for reaching out!");
   };
